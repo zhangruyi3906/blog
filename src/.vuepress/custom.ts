@@ -1,6 +1,6 @@
 export const siteConfig = {
     //config.ts
-    base: "/docs-template/",
+    base: "/blog/",
     title: "网站的标1题",
     description: "网站的描述",
 

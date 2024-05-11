@@ -12,7 +12,7 @@ export const siteConfig = {
         name: "dreamchaser",
         url: "https://github.com/zhangruyi3906",
     },
-    license: "dreamchaser",
+    license: "",
     favicon: "/favicon.svg",
     // 网站图标
     logo: "/site_logo.png",

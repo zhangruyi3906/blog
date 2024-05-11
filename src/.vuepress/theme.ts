@@ -9,7 +9,12 @@ import {siteConfig} from "./custom";
 export default hopeTheme({
     ...siteConfig,
     // 博客配置
-    blog: {},
+    blog: {
+        // 添加你需要的博客配置属性
+        title: "My Blog",
+        description: "Welcome to my blog!",
+        // 其他属性...
+    },
     // 是否在导航栏内显示仓库链接-默认为true
     repoDisplay: true,
     // 导航栏布局

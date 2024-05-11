@@ -88,13 +88,13 @@ export const Sidebar = sidebar({
       text: "学习记录",
       icon: "ability",
       collapsible: true,
-      prefix: "/everyday/studyrecord/",
+      prefix: "/everyday/everydaystudy/",
       children: [
         {
           text: "每日学习",
           icon: "like",
           collapsible: true,
-          prefix: "everydaystudy/",
+          prefix: "studyrecord/",
           children: [
             "2024.5.11-搭建博客升级版+学习.md",
           ],

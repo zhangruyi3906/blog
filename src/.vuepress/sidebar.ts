@@ -83,7 +83,25 @@ export const Sidebar = sidebar({
 
   ],
 
-
+  "/everyday/":[
+    {
+      text: "学习记录",
+      icon: "ability",
+      collapsible: true,
+      prefix: "/everyday/studyrecord/",
+      children: [
+        {
+          text: "每日学习",
+          icon: "like",
+          collapsible: true,
+          prefix: "everydaystudy/",
+          children: [
+            "2024.5.11-搭建博客升级版+学习.md",
+          ],
+        },
+      ],
+    },
+  ],
 
   // 开源项目的侧边栏
   "/autodir/": "structure"

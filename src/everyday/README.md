@@ -5,7 +5,7 @@ title: 技术日志
 icon: code
 # 分类
 category:
-  - 目录
+  - 目录1
   - 导航
 # 标签
 tag:

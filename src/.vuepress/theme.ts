@@ -2,6 +2,10 @@ import {hopeTheme} from "vuepress-theme-hope";
 import navbar from "./navbar/index";
 import sidebar from "./sidebar/index";
 
+// @ts-ignore
+// @ts-ignore
+// @ts-ignore
+// @ts-ignore
 export default hopeTheme({
     // 当前网站部署到的域名
     hostname: "https://github.com/zhangruyi3906",
@@ -9,8 +13,6 @@ export default hopeTheme({
         name: "卧一榻清风",
         url: "https://github.com/zhangruyi3906",
     },
-    // 使用官方提供的图标库-也可以构建自己的图标库
-    iconAssets: "iconfont",
     // 网站图标
     logo: "/site_logo.png",
     docsDir: "src",
@@ -58,7 +60,7 @@ export default hopeTheme({
             Wechat: "Dreamer_come_on",
         },
         avatar: "/site_logo.png",
-        roundAvatar: true,// 头像是否为圆形
+
         articlePerPage: 10, // 首页每页显示的文章数量
         // 博客的侧边栏设置
         sidebarDisplay: "mobile",
@@ -114,7 +116,7 @@ export default hopeTheme({
                 presets: ["ts", "vue"],
             },
 
-            presentation: ["highlight", "math", "search", "notes", "zoom"],
+
             stylize: [
                 {
                     matcher: "Recommended",

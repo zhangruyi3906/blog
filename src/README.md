@@ -30,20 +30,20 @@ features:
     icon: /iconfont/github.svg
     details: My GitHub(卧一榻清风)
     link: https://github.com/zhangruyi3906
-  - title: GitHub
+  - title: 算法刷题
     icon: /尖毛草.jpg
-    details: Girl Friend's blog
-    link: https://pigwzq.github.io/
+    details: 代码随想录-卡码网
+    link: https://kamacoder.com/course.php?course_id=10
     
-  - title: 个人github博客地址
+  - title: 代码随想录
     icon: /iconfont/github.svg
-    details: 个人github博客
-    link: https://github.com/zhangruyi3906/blog
+    details: 优秀的算法网站
+    link: https://programmercarl.com/qita/language.html
     
-  - title: 在线聊天室
+  - title: 代码随想录刷题攻略
     icon: /iconfont/github.svg
     details: Netty在线聊天室
-    link: http://chat.yunfei.plus
+    link: https://github.com/youngyangyang04/leetcode-master
 
   - title: Docs-template
     icon: /iconfont/github.svg

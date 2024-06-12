@@ -2,10 +2,6 @@ import {hopeTheme} from "vuepress-theme-hope";
 import navbar from "./navbar/index";
 import sidebar from "./sidebar/index";
 
-// @ts-ignore
-// @ts-ignore
-// @ts-ignore
-// @ts-ignore
 export default hopeTheme({
     // 当前网站部署到的域名
     hostname: "https://github.com/zhangruyi3906",

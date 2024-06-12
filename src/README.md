@@ -12,7 +12,7 @@ title: 卧一榻清风
 heroImage: /logo.png
 heroText: 卧一榻清风 dreamChaser 
 tagline: ✨事不避难者进，志不求异者成✨ 
-         ✨长风破浪会有时，直挂云帆济沧海✨
+      tagline: ✨长风破浪会有时，直挂云帆济沧海✨
 actions:
   - text: 【博客主页】
     link: /blog/

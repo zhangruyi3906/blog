@@ -1,7 +1,7 @@
 ---
 permalink: /blog/
 home: true
-layout: Blog
+layout: blog
 hero: true
 bgImage: https://s2.loli.net/2024/06/12/grmTpjbEKqY6Fce.png
 heroFullScreen: false

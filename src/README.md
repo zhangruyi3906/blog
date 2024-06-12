@@ -1,10 +1,10 @@
 ---
 home: true
 icon: home
-title: 个人主页
+title: 卧一榻清风
 heroImage: /logo.png
-heroText: VuePress文档快速构建
-tagline: ✨在这里填写副标题✨
+heroText: 卧一榻清风 dreamChaser 
+tagline: ✨事不避难者进，志不求异者成✨ ✨长风破浪会有时，直挂云帆济沧海✨
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
@@ -13,44 +13,54 @@ actions:
   - text: 【博客主页】
     link: /blog/
     type: primary
-  - text: 【自定义左侧目录】
+  - text: 【代码笔记】
     link: /docs/
-  - text: 【左侧目录】
+  - text: 【算法专题】
     link: /autodir/
-  - text: 【vue自定义组件】
+  - text: 【项目实战】
     link: /vuecomponent/
 
-highlights:
-  - header: 易于安装
-    image: /assets/image/box.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
-    highlights:
-      - title: 运行 <code>npm install yunfei-docs-template-npm -g</code> 以下载项目脚手架。
-      - title: 再运行 <code>yunfei-docs-template-npm create app</code> 创建出项目app。
 
-  - header: 简单的配置
-    description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
-    image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/2-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/2-dark.svg
-    bgImageStyle:
-      background-repeat: repeat
-      background-size: initial
-    features:
-      - title: Github
-        icon: /iconfont/github.svg
-        details: Github
-        link: https://www.github.com
+features:
+  - title: Github
+    icon: /iconfont/github.svg
+    details: My GitHub(卧一榻清风)
+    link: https://github.com/zhangruyi3906
+  - title: GitHub
+    icon: /尖毛草.jpg
+    details: Girl Friend's blog
+    link: https://pigwzq.github.io/
+    
+  - title: 个人github博客地址
+    icon: /iconfont/github.svg
+    details: 个人github博客
+    link: https://github.com/zhangruyi3906/blog
+    
+  - title: 在线聊天室
+    icon: /iconfont/github.svg
+    details: Netty在线聊天室
+    link: http://chat.yunfei.plus
 
+  - title: Docs-template
+    icon: /iconfont/github.svg
+    details: 博客模版
+    link: https://github.com/zhangruyi3906/docs-template
 
-      - title: Vuepress
-        icon: /iconfont/vuepress.svg
-        details: Vuepress官网
-        link: https://vuepress.vuejs.org/zh/
+  - title: interview
+    icon: /iconfont/github.svg
+    details: 大厂面试题
+    link: https://github.com/yunfeidog/daily-big-company-interview-questions
 
-      - title: hope主题
-        icon: /iconfont/vuepress.svg
-        details: Vuepress-theme-hope
-        link: https://theme-hope.vuejs.press/zh/
+  - title: CSDN
+    icon: /iconfont/csdn.svg
+    details: CSDN
+    link: https://blog.csdn.net/m0_63267586?type=blog
+
+  - title: 嵌入式智能农场项目
+    icon: /iconfont/codeforces.svg
+    details: Codeforces
+    link: https://github.com/zhangruyi3906/smartFarm
+
 ---
+ 
+

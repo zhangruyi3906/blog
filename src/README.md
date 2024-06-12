@@ -41,7 +41,7 @@ features:
     
   - title: 代码随想录刷题攻略
     icon: /iconfont/github.svg
-    details: Netty在线聊天室
+    details: 代码随想录刷题攻略
     link: https://github.com/youngyangyang04/leetcode-master
 
   - title: Docs-template

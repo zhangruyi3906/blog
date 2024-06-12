@@ -112,7 +112,7 @@ CHATGPT插件，可以在IDEA中直接与GPT对话
 
 
 
-
+![image-20240612195204889](https://s2.loli.net/2024/06/12/grmTpjbEKqY6Fce.png)
 
 
 

@@ -14,7 +14,7 @@ export default defineUserConfig({
     title: siteConfig.title,
     description: siteConfig.description,
     // 设置favicon
-    head: [["link", {rel: "icon", href: "/favicon.svg"}]],
+    head: [["link", {rel: "icon", href: "/logo.png"}]],
     bundler: viteBundler({
         viteOptions: {},
         vuePluginOptions: {},

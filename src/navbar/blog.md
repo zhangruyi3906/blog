@@ -1,9 +1,9 @@
 ---
 permalink: /blog/
 home: true
-layout: blog
+layout: Blog
 hero: true
-bgImage: https://s2.loli.net/2024/06/12/grmTpjbEKqY6Fce.png
+bgImage: https://s2.loli.net/2023/10/18/arHY4OUc3eFZmR8.webp
 heroFullScreen: false
 projects:
   - name: DockerHub
@@ -18,9 +18,9 @@ projects:
     link: https://www.bilibili.com/	
     desc: 让我增长知识的小破站
     icon: link
-  - name: Stack Overflow
-    link: https://stackoverflow.com/users/25323499/dreamchaser
-    desc: 号称国外的CSDN
+  - name: 抖音
+    link: https://www.douyin.com/
+    desc: 消耗我时间的精神粮食
     icon: link
 ---
 

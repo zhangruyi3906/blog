@@ -1,14 +1,16 @@
 import {hopeTheme} from "vuepress-theme-hope";
 import navbar from "./navbar/index";
 import sidebar from "./sidebar/index";
-//test
+
 export default hopeTheme({
     // 当前网站部署到的域名
-    hostname: "https://github.com/zhangruyi3906",
+    hostname: "https://github.com/yunfeidog",
     author: {
-        name: "卧一榻清风",
-        url: "https://github.com/zhangruyi3906",
+        name: "全民制作人ikun",
+        url: "https://github.com/yunfeidog",
     },
+    // 使用官方提供的图标库-也可以构建自己的图标库
+    iconAssets: "iconfont",
     // 网站图标
     logo: "/site_logo.png",
     docsDir: "src",
@@ -20,13 +22,13 @@ export default hopeTheme({
     headerDepth: 6,
 
     // 默认为 GitHub. 同时也可以是一个完整的 URL
-    repo: "https://github.com/zhangruyi3906",
+    repo: "https://github.com/yunfeidog",
     // 自定义仓库链接文字。默认从 `repo` 中自动推断为
     // "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
     repoLabel: "GitHub",
     // 是否在导航栏内显示仓库链接，默认为 `true`
     repoDisplay: true,
-    footer:  '<a href="https://beian.miit.gov.cn/" target="_blank">川ICP备2024051114</a>',
+    footer:  '<a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2023022209</a>',
     pageInfo: ["Category", "Tag", "ReadingTime", "Date", "Word", "Author", "PageView"],
     // 路径导航
     breadcrumb: true,
@@ -46,17 +48,17 @@ export default hopeTheme({
     lastUpdated: true,
 
     blog: {
-        description: "一个不懈奋斗的新青年",
+        description: "一个全栈开发者",
         intro: "/intro.html",
         medias: {
-            Email: "3023208132@qq.com",
-            GitHub: "https://github.com/zhangruyi3906",
-            //Gmail: "hyf1844025705@gmail.com",
-            QQ: "3023208132",
-            Wechat: "Dreamer_come_on",
+            Email: "1844025705@qq.com",
+            GitHub: "https://github.com/yunfeidog",
+            Gmail: "hyf1844025705@gmail.com",
+            QQ: "1844025705",
+            Wechat: "17851302691",
         },
         avatar: "/site_logo.png",
-
+        roundAvatar: true,// 头像是否为圆形
         articlePerPage: 10, // 首页每页显示的文章数量
         // 博客的侧边栏设置
         sidebarDisplay: "mobile",
@@ -83,7 +85,7 @@ export default hopeTheme({
             excerpt: true,
         },
         copyright: {
-            author: "卧一榻清风",
+            author: "全民制作人cxk",
             canonical: "",
             global: true,
             license: "CC-BY-NC-SA-4.0",
@@ -112,7 +114,7 @@ export default hopeTheme({
                 presets: ["ts", "vue"],
             },
 
-
+            presentation: ["highlight", "math", "search", "notes", "zoom"],
             stylize: [
                 {
                     matcher: "Recommended",

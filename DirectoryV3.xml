@@ -3,9 +3,7 @@
      <tree path="/src/blog" title="博客主页"/>
      <tree path="/src/navbar" title="导航栏"/>
      <tree path="/src/posts" title="文章"/>
-<tree path="/src/everyday" title="每日一记"/>
      <tree path="/src/project" title="项目"/>
-<tree path="/src/fullstack" title="全栈开发"/>
      <tree path="/src/algorithm" title="算法"/>
      <tree path="/src/java" title="Java开发"/>
      <tree path="/src/undefined" title="在写，没发布"/>

@@ -1,27 +1,28 @@
 import {defineUserConfig} from "vuepress";
-import theme from "./theme.js";
-import {searchProPlugin} from "vuepress-plugin-search-pro";
 import {registerComponentsPlugin} from "@vuepress/plugin-register-components";
+import theme from "./theme.js";
 import viteBundler from "@vuepress/bundler-vite";
+import {siteConfig} from "./custom";
 
+
+//自定义用户配置
 export default defineUserConfig({
-    base: "/",
-    lang: "zh-CN",
-    title: "全民制作人ikun",
-    description: "vuepress-theme-hope 博客",
+    //@ts-ignore
+    base: siteConfig.base,
+    title: siteConfig.title,
+    description: siteConfig.description,
+    // 设置favicon
+    head: [["link", {rel: "icon", href: "/favicon.svg"}]],
+    bundler: viteBundler({
+        viteOptions: {},
+        vuePluginOptions: {},
+    }),
+    // 主题设置
     theme,
-	bundler: viteBundler({
-		viteOptions:{},
-		vuePluginOptions:{},
-	}),
     plugins: [
-        // 搜索插件
-        searchProPlugin({
-            // 索引全部内容
-            indexContent: true,
-        }),
-
+        // 注册全局组件的插件
+        registerComponentsPlugin({}),
     ],
 
-
+    shouldPrefetch: false,
 });

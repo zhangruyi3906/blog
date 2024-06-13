@@ -1,42 +1,40 @@
 ---
-head:
-  - - meta
-    - name: keywords
-      content: Java,java,springboot,mysql,redis,教程,git,软件,编程,开发,互联网,Java 基础,Java 教程,Java程序员进阶之路,Java 入门,Vue,前端,算法
-  - - meta
-    - name: baidu-site-verification
-      content: codeva-So7Yc5zqF7
 home: true
 icon: home
-title: 个人主页
-heroImage: /site_logo.png
-
-heroText: 全民制作人ikun
-tagline: ✨再看一眼就会爆炸✨
+title: 卧一榻清风
+heroImage: /logo.png
+heroText: 卧一榻清风 dreamChaser 
+tagline: ✨事不避难者进，志不求异者成✨ ✨长风破浪会有时，直挂云帆济沧海✨
+bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
+bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+bgImageStyle:
+  background-attachment: fixed
 actions:
   - text: 【博客主页】
     link: /blog/
     type: primary
   - text: 【代码笔记】
-    link: /posts/
+    link: /docs/
   - text: 【算法专题】
-    link: /algorithm/
+    link: /autodir/
   - text: 【项目实战】
-    link: /project/
+    link: /vuecomponent/
+
+
 features:
   - title: Github
     icon: /iconfont/github.svg
-    details: My GitHub
-    link: https://github.com/yunfeidog
+    details: My GitHub(卧一榻清风)
+    link: https://github.com/zhangruyi3906
   - title: GitHub
     icon: /尖毛草.jpg
     details: Girl Friend's blog
     link: https://pigwzq.github.io/
     
-  - title: 手写RPC框架
+  - title: 个人github博客地址
     icon: /iconfont/github.svg
-    details: 第一个手撕项目-RPC
-    link: http://rpc.yunfei.plus
+    details: 个人github博客
+    link: https://github.com/zhangruyi3906/blog
     
   - title: 在线聊天室
     icon: /iconfont/github.svg
@@ -46,7 +44,7 @@ features:
   - title: Docs-template
     icon: /iconfont/github.svg
     details: 博客模版
-    link: https://github.com/yunfeidog/docs-template
+    link: https://github.com/zhangruyi3906/docs-template
 
   - title: interview
     icon: /iconfont/github.svg
@@ -56,12 +54,12 @@ features:
   - title: CSDN
     icon: /iconfont/csdn.svg
     details: CSDN
-    link: https://blog.csdn.net/m0_74085417?type=blog
+    link: https://blog.csdn.net/m0_63267586?type=blog
 
-  - title: Codeforces
+  - title: 嵌入式智能农场项目
     icon: /iconfont/codeforces.svg
     details: Codeforces
-    link: https://codeforces.com/profile/Houyunfei
+    link: https://github.com/zhangruyi3906/smartFarm
 
 ---
  

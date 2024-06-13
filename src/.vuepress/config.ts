@@ -1,5 +1,6 @@
 import {defineUserConfig} from "vuepress";
 import theme from "./theme.js";
+import viteBundler from "@vuepress/bundler-vite";
 import {searchProPlugin} from "vuepress-plugin-search-pro";
 import {registerComponentsPlugin} from "@vuepress/plugin-register-components";
 
@@ -9,6 +10,10 @@ export default defineUserConfig({
     title: "全民制作人ikun",
     description: "vuepress-theme-hope 博客",
     theme,
+    bundler: viteBundler({
+        viteOptions: {},
+        vuePluginOptions: {},
+    }),
     plugins: [
         // 搜索插件
         searchProPlugin({

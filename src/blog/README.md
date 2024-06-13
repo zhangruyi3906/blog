@@ -1,8 +1,10 @@
 ---
+permalink: /blog/
 home: true
 layout: BlogHome
-hero: false
-heroFullScreen: true
+hero: true
+bgImage: https://s2.loli.net/2024/06/12/grmTpjbEKqY6Fce.png
+heroFullScreen: false
 projects:
   - name: DockerHub
     link: https://hub.docker.com/
@@ -20,5 +22,4 @@ projects:
     link: https://www.douyin.com/
     desc: 消耗我时间的精神粮食
     icon: link
-bgImage: /blog_background.jpg
 ---

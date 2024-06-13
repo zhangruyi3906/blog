@@ -1,14 +1,17 @@
 ---
+head:
+  - - meta
+    - name: keywords
+      content: Java,java,springboot,mysql,redis,教程,git,软件,编程,开发,互联网,Java 基础,Java 教程,Java程序员进阶之路,Java 入门,Vue,前端,算法
+  - - meta
+    - name: baidu-site-verification
+      content: codeva-So7Yc5zqF7
 home: true
 icon: home
 title: 卧一榻清风
 heroImage: /logo.png
 heroText: 卧一榻清风 dreamChaser 
-tagline: ✨事不避难者进，志不求异者成✨ ✨长风破浪会有时，直挂云帆济沧海✨
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
-bgImageStyle:
-  background-attachment: fixed
+tagline: ✨事不避难者进，志不求异者成✨
 actions:
   - text: 【博客主页】
     link: /blog/
@@ -26,20 +29,20 @@ features:
     icon: /iconfont/github.svg
     details: My GitHub(卧一榻清风)
     link: https://github.com/zhangruyi3906
-  - title: GitHub
+  - title: 算法刷题
     icon: /尖毛草.jpg
-    details: Girl Friend's blog
-    link: https://pigwzq.github.io/
+    details: 代码随想录-卡码网
+    link: https://kamacoder.com/course.php?course_id=10
     
-  - title: 个人github博客地址
+  - title: 代码随想录
     icon: /iconfont/github.svg
-    details: 个人github博客
-    link: https://github.com/zhangruyi3906/blog
+    details: 优秀的算法网站
+    link: https://programmercarl.com/qita/language.html
     
-  - title: 在线聊天室
+  - title: 代码随想录刷题攻略
     icon: /iconfont/github.svg
-    details: Netty在线聊天室
-    link: http://chat.yunfei.plus
+    details: 代码随想录刷题攻略
+    link: https://github.com/youngyangyang04/leetcode-master
 
   - title: Docs-template
     icon: /iconfont/github.svg
@@ -62,5 +65,4 @@ features:
     link: https://github.com/zhangruyi3906/smartFarm
 
 ---
- 
 

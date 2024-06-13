@@ -8,46 +8,45 @@ head:
       content: codeva-So7Yc5zqF7
 home: true
 icon: home
-title: 卧一榻清风
-heroImage: /logo.png
-heroText: 卧一榻清风 dreamChaser 
-tagline: ✨事不避难者进，志不求异者成✨
+title: 个人主页
+heroImage: /site_logo.png
+
+heroText: 全民制作人ikun
+tagline: ✨再看一眼就会爆炸✨
 actions:
   - text: 【博客主页】
     link: /blog/
     type: primary
   - text: 【代码笔记】
-    link: /docs/
+    link: /posts/
   - text: 【算法专题】
-    link: /autodir/
+    link: /algorithm/
   - text: 【项目实战】
-    link: /vuecomponent/
-
-
+    link: /project/
 features:
   - title: Github
     icon: /iconfont/github.svg
-    details: My GitHub(卧一榻清风)
-    link: https://github.com/zhangruyi3906
-  - title: 算法刷题
+    details: My GitHub
+    link: https://github.com/yunfeidog
+  - title: GitHub
     icon: /尖毛草.jpg
-    details: 代码随想录-卡码网
-    link: https://kamacoder.com/course.php?course_id=10
+    details: Girl Friend's blog
+    link: https://pigwzq.github.io/
     
-  - title: 代码随想录
+  - title: 手写RPC框架
     icon: /iconfont/github.svg
-    details: 优秀的算法网站
-    link: https://programmercarl.com/qita/language.html
+    details: 第一个手撕项目-RPC
+    link: http://rpc.yunfei.plus
     
-  - title: 代码随想录刷题攻略
+  - title: 在线聊天室
     icon: /iconfont/github.svg
-    details: 代码随想录刷题攻略
-    link: https://github.com/youngyangyang04/leetcode-master
+    details: Netty在线聊天室
+    link: http://chat.yunfei.plus
 
   - title: Docs-template
     icon: /iconfont/github.svg
     details: 博客模版
-    link: https://github.com/zhangruyi3906/docs-template
+    link: https://github.com/yunfeidog/docs-template
 
   - title: interview
     icon: /iconfont/github.svg
@@ -57,12 +56,13 @@ features:
   - title: CSDN
     icon: /iconfont/csdn.svg
     details: CSDN
-    link: https://blog.csdn.net/m0_63267586?type=blog
+    link: https://blog.csdn.net/m0_74085417?type=blog
 
-  - title: 嵌入式智能农场项目
+  - title: Codeforces
     icon: /iconfont/codeforces.svg
     details: Codeforces
-    link: https://github.com/zhangruyi3906/smartFarm
+    link: https://codeforces.com/profile/Houyunfei
 
 ---
+ 
 

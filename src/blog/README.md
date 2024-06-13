@@ -2,7 +2,6 @@
 home: true
 layout: BlogHome
 hero: false
-bgImage: /blog_background.jpg
 heroFullScreen: true
 projects:
   - name: DockerHub
@@ -21,7 +20,5 @@ projects:
     link: https://www.douyin.com/
     desc: 消耗我时间的精神粮食
     icon: link
+bgImage: /blog_background.jpg
 ---
-
-
-

@@ -18,8 +18,11 @@ projects:
     link: https://www.bilibili.com/	
     desc: 让我增长知识的小破站
     icon: link
-  - name: 抖音
-    link: https://www.douyin.com/
-    desc: 消耗我时间的精神粮食
+  - name: 提高开发效率的AI-chatgpt工具
+    link: https://banruoai.cn/chat
+    desc: AI开发工具
     icon: link
 ---
+
+
+fdafasdfsdfsdfsdfsdfsdfsdfsd

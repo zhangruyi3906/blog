@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en-US" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.9" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.38" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
+
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
+
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://github.com/zhangruyi3906/blog/docs/java%E6%A0%B8%E5%BF%83/Java8%E6%96%B0%E7%89%B9%E6%80%A7.html"><meta property="og:site_name" content="乘风破浪（长风破浪会有时，直挂云帆济沧海）"><meta property="og:title" content="Java8新特性"><meta property="og:description" content="Optional类 引入 NPE问题就是在开发中经常碰到的NullPointerException，即空指针问题，Optional类就是用来优雅解决该问题的方案。 比如大家可能都有这样的经历：调用一个方法得到了返回值却不能直接将返回值作为参数去调用别的方法。我们首先要判断这个返回值是否为null，只有在非空的前提下才能将其作为其他方法的参数。 以用户类..."><meta property="og:type" content="article"><meta property="og:locale" content="en-US"><meta property="og:updated_time" content="2024-06-14T12:23:42.000Z"><meta property="article:author" content="dreamchaser"><meta property="article:tag" content="Java"><meta property="article:modified_time" content="2024-06-14T12:23:42.000Z"><script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Java8新特性","image":[""],"dateModified":"2024-06-14T12:23:42.000Z","author":[{"@type":"Person","name":"dreamchaser","url":"https://github.com/zhangruyi3906"}]}</script><link rel="icon" href="/logo.png"><link rel="icon" href="/blog/site_logo.png"><title>Java8新特性 | 乘风破浪（长风破浪会有时，直挂云帆济沧海）</title><meta name="description" content="Optional类 引入 NPE问题就是在开发中经常碰到的NullPointerException，即空指针问题，Optional类就是用来优雅解决该问题的方案。 比如大家可能都有这样的经历：调用一个方法得到了返回值却不能直接将返回值作为参数去调用别的方法。我们首先要判断这个返回值是否为null，只有在非空的前提下才能将其作为其他方法的参数。 以用户类...">
+    <link rel="preload" href="/blog/assets/style-Xje_j1by.css" as="style"><link rel="stylesheet" href="/blog/assets/style-Xje_j1by.css">
+    <link rel="modulepreload" href="/blog/assets/app-BS3eemgF.js"><link rel="modulepreload" href="/blog/assets/Java8新特性.html-BZRJOzVf.js"><link rel="modulepreload" href="/blog/assets/plugin-vue_export-helper-DlAUqK2U.js">
+    
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">Skip to main content</a><!--]--><!----><!--]--><!--[--><!----><!----><!--]--><!--]--></div>
+    <script type="module" src="/blog/assets/app-BS3eemgF.js" defer></script>
+  </body>
+</html>

@@ -17,16 +17,8 @@ export const Sidebar = sidebar({
             children: "structure", // 分组下的子分组或页面 structure代表自动获取
         },
     ],
-  // 代码笔记的侧边栏
-  "/docs/": [
-    {
-            text: "代码笔记", // 分组显示名称
-            icon: "book", // 分组显示图标
-            children: "structure", // 分组下的子分组或页面 structure代表自动获取
-        },
-  ],
 
-  "/everyday/":[
+  "/everyday/": [
     {
       text: "学习记录",
       icon: "ability",

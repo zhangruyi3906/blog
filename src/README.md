@@ -60,9 +60,20 @@ features:
     link: https://blog.csdn.net/m0_63267586?type=blog
 
   - title: 嵌入式智能农场项目
-    icon: /iconfont/codeforces.svg
+    icon: /iconfont/gitee.svg
     details: Codeforces
     link: https://github.com/zhangruyi3906/smartFarm
+	
+  - title: java学习网站
+    icon: /iconfont/codeforces.svg
+    details: javaGuide
+	link:https://javaguide.cn/home.html#%E5%9F%BA%E7%A1%80
+	
+  - title: stackoverflow
+    icon: /iconfont/linux.svg
+    details: 国外的CSDN
+	link:https://stackoverflow.com/
+	
 
 ---
 

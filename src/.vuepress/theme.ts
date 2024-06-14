@@ -46,7 +46,7 @@ export default hopeTheme({
     lastUpdated: true,
 
     // 显示页面的贡献者
-    contributors: false,
+    contributors: true,
 
     // 文章所在目录
     docsDir: "src",

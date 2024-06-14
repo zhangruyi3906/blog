@@ -19,13 +19,12 @@ export const Sidebar = sidebar({
     ],
 
   "/everyday/": [
-    {
-      text: "学习记录",
-      icon: "ability",
-      children: "structure", // 分组下的子分组或页面 structure代表自动获取
-    },
-  ],
-  
+        {
+            text: "学习记录", // 分组显示名称
+            icon: "ability", // 分组显示图标
+            children: "structure", // 分组下的子分组或页面 structure代表自动获取
+        },
+    ],
 "/interview/": [
         {
             text: "面试题", // 分组显示名称

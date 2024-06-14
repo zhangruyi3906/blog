@@ -1,9 +1,7 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const Navbar = navbar([
-  {text: "时间线", icon: "timeline", link: "/timeline/",},
-  {text: "分类", icon: "categoryselected", link: "/category/",}, 
-  { text: "快速导航", icon: "home", link: "/navigation/" },
+
   { text: "博客主页", icon: "blog", link: "/blog/" },
   { text: "代码笔记", icon: "code", link: "/docs/" },
   { text: "Java学习专题", icon: "free", link: "/java/" },
@@ -27,4 +25,6 @@ export const Navbar = navbar([
       },
     ],
   },
+    {text: "时间线", icon: "timeline", link: "/timeline/",},
+  {text: "分类", icon: "categoryselected", link: "/category/",}, 
 ]);

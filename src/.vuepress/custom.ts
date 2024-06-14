@@ -13,7 +13,7 @@ export const siteConfig = {
         url: "https://github.com/zhangruyi3906",
     },
     license: "",
-    favicon: "/favicon.svg",
+    favicon: "/site_logo.png",
     // 网站图标
     logo: "/site_logo.png",
     // 导航栏上的个人仓库地址

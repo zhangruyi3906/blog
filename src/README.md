@@ -64,16 +64,17 @@ features:
     details: Codeforces
     link: https://github.com/zhangruyi3906/smartFarm
 	
-  - title: java学习网站
-    icon: /iconfont/codeforces.svg
-    details: javaGuide
-	link:https://javaguide.cn/home.html#%E5%9F%BA%E7%A1%80
 	
   - title: stackoverflow
     icon: /iconfont/linux.svg
     details: 国外的CSDN
-	link:https://stackoverflow.com/
+	link: https://stackoverflow.com/
 	
+  - title: java学习网站
+    icon: /iconfont/codeforces.svg
+    details: javaGuide
+    link: https://javaguide.cn/home.html#%E5%9F%BA%E7%A1%80
+
 
 ---
 

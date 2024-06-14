@@ -20,31 +20,20 @@ export const Sidebar = sidebar({
   // 代码笔记的侧边栏
   "/docs/": [
     {
-      text: "Java核心",
-      icon: "java",
-      collapsible: true,
-      prefix: "/docs/javacore/",
-      children: "structure",
-    },
-
-
-    {
-      text: "算法和数据结构",
-      icon: "ability",
-      collapsible: true,
-      prefix: "/docs/algdata/",
-       children: "structure",
-    },
-
+            text: "代码笔记", // 分组显示名称
+            icon: "book", // 分组显示图标
+            children: "structure", // 分组下的子分组或页面 structure代表自动获取
+        },
   ],
 
   "/everyday/":[
     {
       text: "学习记录",
       icon: "ability",
-      children: "structure",
+       children: "structure", // 分组下的子分组或页面 structure代表自动获取
     },
   ],
+  
 "/interview/": [
         {
             text: "面试题", // 分组显示名称

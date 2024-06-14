@@ -22,7 +22,7 @@ export const Sidebar = sidebar({
     {
       text: "学习记录",
       icon: "ability",
-       children: "structure", // 分组下的子分组或页面 structure代表自动获取
+      children: "structure", // 分组下的子分组或页面 structure代表自动获取
     },
   ],
   

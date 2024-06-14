@@ -16,12 +16,12 @@ actions:
   - text: 【博客主页】
     link: /blog/
     type: primary
-  - text: 【代码笔记】
-    link: /docs/
-  - text: 【算法专题】
-    link: /autodir/
+  - text: 【每日一记】】
+    link: /everyday/
+  - text: 【java】
+    link: /java/
   - text: 【项目实战】
-    link: /vuecomponent/
+    link: /project/
 
 features:
   - title: Github

@@ -33,15 +33,7 @@ export const Sidebar = sidebar({
       icon: "ability",
       collapsible: true,
       prefix: "/docs/algdata/",
-      children: [
-        {
-          text: "算法小抄",
-          icon: "like",
-          collapsible: true,
-          prefix: "lbld/",
-          children: "structure",
-        },
-      ],
+       children: "structure",
     },
 
   ],
@@ -51,16 +43,7 @@ export const Sidebar = sidebar({
       text: "学习记录",
       icon: "ability",
       collapsible: true,
-      prefix: "/everyday/everydaystudy/",
-      children: [
-        {
-          text: "每日学习",
-          icon: "like",
-          collapsible: true,
-          prefix: "studyrecord/",
-          children: "structure",
-        },
-      ],
+     children: "structure",
     },
   ],
 "/interview/": [

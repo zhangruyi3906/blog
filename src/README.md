@@ -23,7 +23,6 @@ actions:
   - text: 【项目实战】
     link: /vuecomponent/
 
-
 features:
   - title: Github
     icon: /iconfont/github.svg
@@ -33,48 +32,36 @@ features:
     icon: /尖毛草.jpg
     details: 代码随想录-卡码网
     link: https://kamacoder.com/course.php?course_id=10
-    
   - title: 代码随想录
     icon: /iconfont/github.svg
     details: 优秀的算法网站
     link: https://programmercarl.com/qita/language.html
-    
   - title: 代码随想录刷题攻略
     icon: /iconfont/github.svg
     details: 代码随想录刷题攻略
     link: https://github.com/youngyangyang04/leetcode-master
-
   - title: Docs-template
     icon: /iconfont/github.svg
     details: 博客模版
     link: https://github.com/zhangruyi3906/docs-template
-
   - title: interview
     icon: /iconfont/github.svg
     details: 大厂面试题
     link: https://github.com/yunfeidog/daily-big-company-interview-questions
-
   - title: CSDN
     icon: /iconfont/csdn.svg
     details: CSDN
     link: https://blog.csdn.net/m0_63267586?type=blog
-
   - title: 嵌入式智能农场项目
     icon: /iconfont/gitee.svg
     details: Codeforces
     link: https://github.com/zhangruyi3906/smartFarm
-	
-	
   - title: stackoverflow
     icon: /iconfont/linux.svg
     details: 国外的CSDN
-	link: https://stackoverflow.com/
-	
+    link: https://stackoverflow.com/
   - title: java学习网站
     icon: /iconfont/codeforces.svg
     details: javaGuide
     link: https://javaguide.cn/home.html#%E5%9F%BA%E7%A1%80
-
-
 ---
-

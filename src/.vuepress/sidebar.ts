@@ -42,7 +42,7 @@ export const Sidebar = sidebar({
     {
       text: "学习记录",
       icon: "ability",
-     children: "structure",
+      children: "structure",
     },
   ],
 "/interview/": [

@@ -64,4 +64,13 @@ features:
     icon: /iconfont/codeforces.svg
     details: javaGuide
     link: https://javaguide.cn/home.html#%E5%9F%BA%E7%A1%80
+  - title: 牛客网
+    icon: /iconfont/codeforces.svg
+    details: 牛客网
+    link: https://www.nowcoder.com/
+  - title: 力扣网
+    icon: /iconfont/codeforces.svg
+    details: 力扣网
+    link: https://leetcode.cn/
+	
 ---

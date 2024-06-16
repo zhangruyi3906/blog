@@ -22,6 +22,11 @@ export const Navbar = navbar([
         icon: "play",
         link: "tools/",
       },
+	  {
+        text: "各种网站资源备忘",
+        icon: "play",
+        link: "site_resource/",
+      },
     ],
   },
     {text: "时间线", icon: "timeline", link: "/timeline/",},

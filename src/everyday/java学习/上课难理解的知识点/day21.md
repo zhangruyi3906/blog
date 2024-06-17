@@ -7,8 +7,6 @@ tag:
    - 知识点
 ---
 
-
-
 ### MySQl主从复制
 
 [Linux-MySQL主从复制详解和配置--一主一从_linux下mysql搭建主从复制-CSDN博客](https://blog.csdn.net/qq_61838278/article/details/132244311)
